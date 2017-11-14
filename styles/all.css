@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Vollkorn+SC");
 
+/*Rachel*/
+
 #modalBack, #modalBack2, #modalBack3, #modalBack4, #modalBack5{
   display: none;
   position: fixed;
@@ -152,7 +154,7 @@ a {
 }
 
 
-
+/* Lily */
 
 form {
   float: right;
@@ -381,4 +383,203 @@ input[type=submit]{
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
+}
+
+/* Junan */
+
+
+
+
+
+.wedo{
+
+  color: black;
+  margin-top: 30px;
+}
+
+
+
+#impact-h1 {
+  height: 200px;
+
+  color: white;
+  cursor: pointer;
+
+  width: 300px;
+}
+
+
+#calvert-h1 {
+  height: 200px;
+
+  cursor: pointer;
+  width: 300px;
+
+
+}
+#calvert, #jpmorgan {
+  margin: 0px 30px;
+}
+
+#jpmorgan{
+  height: 0px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+}
+
+
+
+
+
+
+#jp-paragraph{
+  width: 60%;
+  height: 360px;
+
+
+}
+
+#boa-paragraph{
+  width: 60%;
+  margin-top: 70px;
+  height: 360px;
+
+
+}
+
+#jp-h1{
+
+  font-weight: bold;
+  margin-left: 5%;
+  font-family: sans-serif;
+  font-size: 40px;
+
+  margin-bottom: 3px;;
+  margin-top: 0;
+  color: rgb(79, 17, 7);
+}
+
+ #boa-h1{
+
+   font-weight: bold;
+   margin-left: 5%;
+   font-size: 40px;
+   height: 40px;
+
+   margin-bottom: 3px;;
+   margin-top: 0;
+   color: rgb(79, 17, 7);
+ }
+
+#jpmorgan-description{
+  width: 95%;
+  height: 312px;
+  font-size: 22px;
+  font-family: sans-serif;
+
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#boa-description{
+  width: 95%;
+  height: 302px;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: monospace;
+
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.partner-title{
+  color: rgb(79, 17, 7);
+  margin: 0 auto;
+
+
+}
+.descript {
+
+}
+#calv-border, #impact-border {
+  border: solid black;
+
+}
+#lineDec {
+  padding: 30px 0px;
+}
+
+
+#footer{
+  text-align: center;
+
+  font-size: 11px;
+  width: 725px;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
+#impact-h1:hover {
+  background-color: #78e6cf;
+}
+
+#calvert-h1:hover {
+  background-color: #78e6cf;
+}
+#calvert {
+  margin-left: 50px;
+  
+  margin-right: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+#impact-paragraph {
+  background: white;
+  padding: 0px;
+  margin-left: 20px;
+
+  display: none;
+}
+
+#calvert-paragraph {
+  background: white;
+  padding-left: 10px;
+
+  display: none;
+}
+
+#calv-border, #impact-border {
+  width: 400px;
+  height: 200px;
+}
+
+
+
+#partner-div-2 {
+text-align: center;
+margin-bottom: 30px;
+}
+#partner-div-2 h1 {
+  padding-bottom: 30px;
+}
+
+#partner-div-paragraph{
+  text-align: left;
+
+
+  margin-left: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#partner-div-1{
+  padding: 25px 30% 0px 30%;
+
+
+
 }

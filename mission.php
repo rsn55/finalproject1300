@@ -25,7 +25,7 @@
           <img src="images/rahul.jpg" class="circle" alt="ellen">
       </figure>
         <h3>Rahul Mukherjee</h3>
-        <p class="title">President</p>
+        <p class="title">Chief Executive Officer</p>
         <p class="bio">I am a sophomore in Cornell University's Dyson School
            of Applied Economics and Management. I am a driven and analytical
            individual who thrives in a collaborative environment. My
@@ -52,7 +52,7 @@
           <img src="images/yousef.jpg" class="circle" alt="ellen">
       </figure>
         <h3>Yousef Elraghy</h3>
-        <p class="title">Vice President</p>
+        <p class="title">Finance Director</p>
         <p class="bio">I am a sophomore in Cornell University's Dyson School
            of Applied Economics and Management. I am a driven and analytical
            individual who thrives in a collaborative environment. My
@@ -78,8 +78,8 @@
       <figure>
           <img src="images/ari.jpg" class="circle" alt="ellen">
       </figure>
-        <h3>Ari Jain</h3>
-        <p class="title">Treasurer</p>
+        <h3>Arihant Jain</h3>
+        <p class="title">Chief Investing Officer</p>
         <p class="bio">I am a sophomore in Cornell University's Dyson School
            of Applied Economics and Management. I am a driven and analytical
            individual who thrives in a collaborative environment. My
@@ -106,7 +106,7 @@
           <img src="images/mazen.jpg" class="circle" alt="ellen">
       </figure>
         <h3>Mazen Raafat Ibrahim</h3>
-        <p class="title">Director</p>
+        <p class="title">Secretary</p>
         <p class="bio">I am a sophomore in Cornell University's Dyson School
            of Applied Economics and Management. I am a driven and analytical
            individual who thrives in a collaborative environment. My
@@ -129,7 +129,7 @@
           <img src="images/samir.jpg" class="circle" alt="ellen">
       </figure>
         <h3>Samir Salih</h3>
-        <p class="title">Director</p>
+        <p class="title">Chief Operations Officer</p>
 
 <p class="bio">I am an undergraduate student at Cornell University interested
   in comparative government and International law. I am interested
@@ -164,7 +164,7 @@ investments.
       <img src="images/rahul.jpg" class="circle" alt="ellen">
   </figure>
     <h3>Rahul Mukherjee</h3>
-    <p class="title">President</p>
+    <p class="title">Chief Executive Officer</p>
 
     <p id="first">Meet Rahul &rarr; </p>
 
@@ -177,7 +177,7 @@ investments.
       <img src="images/yousef.jpg" class="circle" alt="ellen">
   </figure>
     <h3>Yousef Elraghy</h3>
-    <p class="title">Vice President</p>
+    <p class="title">Finance Director</p>
 
     <p id="second">Meet Yousef &rarr; </p>
   </div>
@@ -187,7 +187,7 @@ investments.
       <img src="images/ari.jpg" class="circle" alt="ellen">
   </figure>
     <h3>Ari Jain</h3>
-    <p class="title">Treasurer</p>
+    <p class="title">Chief Investing Officer</p>
 
     <p id="third">Meet Ari &rarr; </p>
 
@@ -199,7 +199,7 @@ investments.
       <img src="images/mazen.jpg" class="circle" alt="ellen">
   </figure>
     <h3>Mazen Raafat Ibrahim</h3>
-    <p class="title">Director</p>
+    <p class="title">Secretary</p>
     <p id="fourth">Meet Mazen &rarr; </p>
   </div>
 
@@ -208,7 +208,7 @@ investments.
     <img src="images/samir.jpg" class="circle" alt="ellen">
 </figure>
   <h3>Samir Salih</h3>
-  <p class="title">Director</p>
+  <p class="title">Chief Operations Officer</p>
   <p id="fifth">Meet Samir &rarr; </p>
 </div>
 </div>

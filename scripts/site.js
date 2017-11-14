@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
 
+     $("#impact-border").hover( function() {
+       $("#impact-h1").toggle();
+       $("#impact-paragraph").toggle();
+
+
+
+    });
+    $("#calv-border").hover( function() {
+      $("#calvert-h1").toggle();
+      $("#calvert-paragraph").toggle();
+  });
+
   // When the user clicks on the button, open the modal
   $("#first").click( function() {
 
