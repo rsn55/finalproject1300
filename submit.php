@@ -1,18 +1,36 @@
 <?php
-$name = $_POST["name"];
+session_start();
+$username = $_SESSION["UserName1"];
+?>
+
+<?php
+session_start();
+$username = $_SESSION["UserName1"];
+?>
+<?php
+session_start();
+$useremail = $_SESSION["Email1"]
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>CII Form Submitted</title>
-  <link rel="stylesheet" type="text/css" href="Style/style.css" media="all"/>
+  <title> Impact Investing Club </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
 </head>
 
 <body>
+<?php include "includes/navigation.php"; ?>
 
-  <div class="main">
-<p class="text">Application submitted. Thank you <?php echo($name); ?> for submitting your application to Cornell Impact Investing!</p>
+<p class="text">Application submitted. Thank you <?php echo($username); ?> for applying to Cornell Impact Investing!</p>
+<p class="text">We will contact you shortly at <?php echo($useremail); ?>.</p>
 
-  </html>
+</body>
+
+</html>
+
+</html>
