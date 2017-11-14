@@ -1,3 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Vollkorn+SC");
+
+#modalBack, #modalBack2, #modalBack3, #modalBack4, #modalBack5{
+  display: none;
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+}
+
+#myModal {
+
+    position: fixed; /* Stay in place */
+
+    z-index: 1; /* Sit on top */
+    left: 35%;
+    top: 0;
+
+   /* Full height */
+    overflow: auto;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  width: 300px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+
+}
+.modal-content p{
+
+  margin: 20px 30px;
+}
+.bio {
+  text-align: justify;
+}
+
+
+#missionContain {
+  margin: 0px 200px;
+}
+.title {
+  color: gray;
+  margin: 0 auto;
+}
+h3 {
+  margin: 0 auto;
+}
+.circle {
+border: 7px solid rgb(79, 17, 7);
+  border-radius: 50%;
+
+  width: 150px;
+
+}
+
+.teamContainer {
+	text-align: center;
+
+
+}
+.row {
+  height: 310px;
+}
+.teamMember:hover{
+
+  box-shadow: 2px 1px 14px 5px rgba(0,0,0,0.2);
+   filter: grayscale(100%);
+
+}
+
+.teamMember {
+  vertical-align: top;
+	display: inline-block;
+  margin: auto;
+
+}
+
+#first, #second, #third, #fourth, #fifth {
+  display: none;
+  cursor: pointer;
+}
+
+.logo {
+  display: inline;
+    width: 40px;
+
+}
+
+
+
+
 body, html {
   margin: 0 auto;
 }
@@ -9,9 +104,16 @@ body, html {
 }
 h1 {
   color: rgb(244,218,178);
-
+  font-size: 35px;
   text-align: center;
-  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-family: 'Vollkorn SC', serif;
+}
+h2, h3 {
+  font-family: 'Vollkorn SC', serif;
+  text-align: center;
+}
+p {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .menu ul {
@@ -19,11 +121,17 @@ h1 {
   padding: 0;
   text-align: center;
 }
+#logo {
+  width: 50px;
+}
 .menu li {
-
   list-style-type: none;
   display: inline;
+  font-size: 20px;
+
+
 }
+
 
 a {
   text-decoration: none;
@@ -32,15 +140,245 @@ a {
 .menu li a {
   color: rgb(244,218,178);
   text-align: center;
-  padding: 40px 16px;
-  font-size: 30px;
-  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  padding: 5px 16px;
+  font-family: 'Vollkorn SC', serif;
+
 }
-.menu {
-  padding-top: 10px;
-}
+
 
 .menu li a:hover{
   color: white;
 
+}
+
+
+
+
+form {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgb(246, 247, 237);
+  width: 600px;
+  height: auto;
+  border-radius: 15px;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #110745;
+  box-shadow: 0px 2px 8px #888888;
+  margin-bottom: 20px;
+}
+
+form p{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+#red{
+  color: rgb(185,0,25);
+}
+
+#inputs label{
+  display: inline-block;
+    float: left;
+    width: 130px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#inputs label, #inputs input{
+  padding: 10px;
+  margin: 5px;
+}
+
+
+input[type=text]{
+  display: inline-block;
+  float: left;
+  width: 300px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="text"], textarea {
+  background-color : white;
+}
+
+input[type=text]:focus, select:focus {
+  border: 3px solid rgb(130, 130, 130);
+  outline: none;
+}
+
+input[type=email]{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="email"], textarea {
+  background-color: white;
+  border: 3px solid #ccc;
+}
+
+input[type=email]:focus, .textarea:focus{
+  border: 3px solid rgb(130, 130, 130);
+}
+
+#join {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 600px;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+
+}
+
+#join p{
+  text-align: left;
+  padding-left: 15px;
+
+}
+
+.info{
+  color: #2b4070;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+#choose, #pick{
+  width: 70%;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+  text-align: left;
+  display: block;
+  float: left;
+  width: 300px;
+  margin-left: 170px;
+  margin-bottom: 8px;
+}
+
+.error2{
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+  text-align: left;
+  display: block;
+  float: left;
+  width: 300px;
+  margin-left: 150px;
+  margin-bottom: 8px;
+}
+
+.hiddenError {
+  display: none;
+}
+
+select{
+
+  background-color: white;
+  margin: 5px;
+  border: none;
+  display: inline;
+  width: 270px;
+  box-sizing: border-box;
+
+  border: 3px solid #ccc;
+}
+
+option{
+  padding: 3px;
+}
+
+#selectors{
+  margin-top: 170px;
+}
+
+#selectors p{
+  padding-right: 0px;
+  text-align: left;
+}
+
+.button{
+  display: block;
+  width: 20px;
+  margin-left: 280px;
+  margin-bottom: 10px;
+
+}
+
+textarea {
+  width: 300px;
+  margin-left: 150px;
+  resize: none;
+  height: 100px;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+#textareas{
+  text-align: left;
+}
+
+#uploads{
+  margin-top: 20px;
+}
+
+#uploads label{
+  display: inline;
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#uploads input{
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input[type=submit]:active input[type=file]:active{
+  background-color: rgb(182, 216, 211);
+}
+
+input[type=submit]{
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#questions{
+  float: left;
+  width: 570px;
+  margin-left: 30px;
+
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
 }
