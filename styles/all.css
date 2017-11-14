@@ -530,7 +530,7 @@ input[type=submit]{
 }
 #calvert {
   margin-left: 50px;
-  
+
   margin-right: 0px;
   display: inline-block;
   vertical-align: top;
@@ -582,4 +582,88 @@ margin-bottom: 30px;
 
 
 
+}
+
+#cornell{
+  width: 100%;
+  overflow: hidden;
+}
+
+#slogan{
+  margin-top: 300px;
+  opacity: 0.75;
+  padding:20px;
+  color: black;
+  background-color: white;
+}
+
+#future{
+  font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#future2{
+  font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 45px;
+  font-size: 20px;
+}
+
+#buffett{
+  text-align: right;
+  font-size: 23px;
+  font-style: italic;
+  overflow: hidden;
+}
+
+#blurb{
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+#home{
+  background-image: url('../images/cornell.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/cornell.jpg');
+}
+
+/* Ellen */
+
+
+#deftitle{
+  text-align: left;
+  margin-bottom: 0px;
+}
+#definition{
+  width: 500px;
+  height: 150px;
+  border: 1px solid black;
+  border-style: dotted;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+#defpronounce{
+  margin-top: 0px;
+}
+dt {
+  float: left;
+  width: 30%;
+  text-align: right;
+  padding: 5px;
+  clear: left;
+  font-weight: bold;
+}
+dd {
+  float: left;
+  width: 40%;
+  padding: 5px;
+  margin-left: 0px;
+}
+dl:after {
+  content:"";display:table;clear:both;
+}
+#containEd {
+  margin: 10px 20%;
 }

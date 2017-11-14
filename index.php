@@ -9,13 +9,26 @@
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
 </head>
 
-<body>
-
-
+<body id="home">
 <?php include "includes/navigation.php"; ?>
 
+<div id="slogan">
+  <p id="future">"I will tell you how to become rich. Close the doors. </p>
+    <p id="future2">Be fearful when others are greedy. Be greedy when others are fearful." </p>
+  <p id="buffett">- Warren Buffett</p>
+</div>
 
-  
+<!-- <div id="blurb">
+  <p id="blurb"> Mission Statement pending</p>
+</div> -->
+
+
+
+
+
+
+
+
 </body>
 
 </html>
