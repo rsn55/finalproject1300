@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-#myModal {
+.myModal {
 
     position: fixed; /* Stay in place */
 
@@ -348,6 +348,7 @@ textarea {
 #uploads{
   margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 #uploads label{
@@ -387,7 +388,9 @@ input[type=submit]{
 
 /* Junan */
 
-
+.wedo-paragraph{
+  padding-bottom: 20px;
+}
 
 
 
@@ -397,7 +400,9 @@ input[type=submit]{
   margin-top: 30px;
 }
 
-
+#quote-partner{
+  text-align: center;
+}
 
 #impact-h1 {
   height: 200px;
@@ -460,6 +465,11 @@ input[type=submit]{
   color: rgb(79, 17, 7);
 }
 
+
+.aboutimpact{
+  width: 782.4px;
+}
+
  #boa-h1{
 
    font-weight: bold;
@@ -497,9 +507,16 @@ input[type=submit]{
 .partner-title{
   color: rgb(79, 17, 7);
   margin: 0 auto;
-
+  padding-top: 30px;
 
 }
+
+#partner-title-1{
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+
 .descript {
 
 }
@@ -507,18 +524,20 @@ input[type=submit]{
   border: solid black;
 
 }
-#lineDec {
-  padding: 30px 0px;
+.lineDec {
+  padding: 0px 0px;
+  padding-top: 20px;
 }
 
 
-#footer{
+footer{
   text-align: center;
-
+  float: none;
   font-size: 11px;
-  width: 725px;
+  width: 100%;
   border-style: ridge;
   border-radius: 5px;
+  background-color: rgb(79, 17, 7);;
 }
 
 #impact-h1:hover {
@@ -536,7 +555,13 @@ input[type=submit]{
   vertical-align: top;
 }
 
+.footer-caption{
+  color: rgb(244, 218, 178);
+}
 
+#footer-email{
+  color: rgb(244, 218, 178);
+}
 
 #impact-paragraph {
   background: white;
@@ -558,14 +583,14 @@ input[type=submit]{
   height: 200px;
 }
 
+#impact-border{
+  padding-right: 10px;
+}
 
 
 #partner-div-2 {
 text-align: center;
 margin-bottom: 30px;
-}
-#partner-div-2 h1 {
-  padding-bottom: 30px;
 }
 
 #partner-div-paragraph{
@@ -578,7 +603,7 @@ margin-bottom: 30px;
 }
 
 #partner-div-1{
-  padding: 25px 30% 0px 30%;
+  padding: 0px 30% 0px 30%;
 
 
 
@@ -597,6 +622,8 @@ margin-bottom: 30px;
   margin-top: 400px;
   opacity: 0.75;
   padding:20px;
+  padding-left: 100px;
+  padding-right: 100px;
   height: auto;
   color: black;
   background-color: white;
@@ -630,6 +657,10 @@ margin-bottom: 30px;
 #home{
   background-image: url('../images/cornell.jpg');
   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../images/cornell.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Ellen */
@@ -678,4 +709,24 @@ dl:after {
   text-align: center;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 20px;
+}
+
+.calender-li{
+  padding: 6px;
+}
+
+#calender-left{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#calender-right{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+
+.bold{
+  font-weight: bold;
 }

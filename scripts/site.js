@@ -17,8 +17,10 @@ $(document).ready(function () {
   $("#first").click( function() {
 
       $("#modalBack").show();
-
   });
+
+
+
   $("#second").click( function() {
 
       $("#modalBack2").show();

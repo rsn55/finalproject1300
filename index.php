@@ -17,11 +17,12 @@
 <?php include "includes/navigation.php"; ?>
 
 <div id="slide">
+
   <!-- <div id="image">
-  <img id="current_img" src="images/slide2.jpg">
+  <img id="slideshow" src="images/cornell.jpg">
   </div> -->
 
-  <!-- <div id="buttons">
+<!-- <div id="buttons">
   <button class="slide_button" id="left">⤌</button>
   <button class="slide_button" id="right">⤏</button>
   </div>
@@ -40,8 +41,7 @@
 </div> -->
 
 
-
-
+      <?php include "includes/footer.php"; ?>
 </body>
 
 </html>

@@ -270,6 +270,7 @@ else {
   </form>
 
 </div>
+</div>
 
 </body>
 </html>

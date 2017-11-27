@@ -1,89 +1,222 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
 
 <head>
   <title> Impact Investing Club </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
-  <script type="text/javascript" src="scripts/site.js"></script>
 
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+    <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+    <script src="scripts/site.js" type="text/javascript"></script>
 </head>
+
 <body>
-<?php include "includes/navigation.php"; ?>
-<div id="containEd">
-  <h1>Impact Investing</h1>
+
+  <div id="modalBack">
+
+  <div class="myModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <figure>
+          <img src="images/rahul.jpg" class="circle" alt="personimg">
+      </figure>
+        <h3>Rahul Mukherjee</h3>
+        <p class="title">Chief Executive Officer</p>
+        <p class="bio">I am a sophomore in Cornell University's Dyson School
+           of Applied Economics and Management. I am a driven and analytical
+           individual who thrives in a collaborative environment. My
+           international exposure (living in the Middle East for 7 years),
+           has honed my cross-cultural communication skills and has allowed me
+           to become an effective leader in a diverse team. </p>
 
 
-<div class="impactinvestinginfo">
-    <div id= "aboutimpact">
-    <h2>What is Impact Investing?</h2>
-    <div id="definition">
-      <h2 id="deftitle">Impact Investment</h2>
-      <p id="defpronounce">[im-pakt in-vest-muh nt]</p>
-      <p>NOUN: Impact investing is investing that aims to generate specific beneficial social
-        or environmental effects in addition to financial gain.</p>
+
       </div>
-<div class="centEd">
-      <p>Impact investments are investments made into companies, organizations,
-        and funds with the intention to generate social and environmental impact
-        alongside a financial return. Impact investments can be made in both emerging
-        and developed markets, and target a range of returns from below market to market rate,
-        depending on investors' strategic goals. </p>
-        <img alt= "aboutimpact" src="images/aboutimpact.jpg">
-    
 
-      <div id= "whyimpact">
-        <h2>Why Impact Investing?</h2>
-        <p>Impact investing challenges the long-held views
-          that social and environmental issues should be addressed only by philanthropic donations,
-          and that market investments should focus exclusively on achieving financial returns.</p>
-
-          <p>The impact investing market offers diverse and viable opportunities for investors
-            to advance social and environmental solutions through investments that also produce
-            financial returns. </p>
-            <img alt= "whyimpact" src="images/whyimpact.jpg">
-          </div>
-        </div>
-</div>
-<div class= "analystdevinfo">
-          <h1>Analyst Development Program</h1>
-          <h2>About</h2>
-          <p>The Analyst Development Program (ADP) is a 4-week long program,
-            with four 1 hour long lectures and 2 weekend workshops that
-            will give you real applicable knowledge and effective expertise.
-            By the end of the ADP, you will be able to construct comprehensive
-            Investment Proposal Decks,valuate companies, and present your ideas
-            in a coherent and applicable manner.</p>
-
-            <h2>Lectures and Workshops</h2>
-            <dl>
-              <dt>Week 1, October 24nd: </dt>
-              <dd>Accounting and Financial Terms</dt>
-                <dt>Week 2, October 31st:</dt>
-                <dd>How to Market Research</dd>
-                <dt>Week 2, November 4th:</dt>
-                <dd>(Saturday) Investment-Presentation Workshop </dd>
-                <dt>Week 3, November 7nd:</dt>
-                <dd>Valuations Part 1</dd>
-                <dt>Week 3, November 11th:</dt>
-                <dd>(Saturday) Valuations Workshop Part 1</dd>
-                <dt>Week 4, November 14th:</dt>
-                <dd>Valuations Part 2</dd>
-                <dt>Week 4, November 18th:</dt>
-                <dd>(Saturday) DCF Workshop</dd>
-              </dl>
-
-              <h2>Case Study</h2>
-              <dl>
-                <dt>Week 4, November 18th:</dt>
-                <dd>Impact Investment Case Preparation</dd>
-                <dt>Final Week, December 4th:</dt>
-                <dd>Presentation</dd>
-              </dl>
-      </div>
     </div>
-            </body>
-            </html>
+  </div>
+
+  <div id="modalBack2">
+
+  <div class="myModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+
+      <figure>
+          <img src="images/yousef.jpg" class="circle" alt="personimg">
+      </figure>
+        <h3>Yousef Elraghy</h3>
+        <p class="title">Finance Director</p>
+        <p class="bio">I am a sophomore in Cornell University's Dyson School
+           of Applied Economics and Management. I am a driven and analytical
+           individual who thrives in a collaborative environment. My
+           international exposure (living in the Middle East for 7 years),
+           has honed my cross-cultural communication skills and has allowed me
+           to become an effective leader in a diverse team. </p>
+        <p><a target="_blank" href="https://www.linkedin.com/in/yousef-el-raghy-32a67712a/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
+
+
+    </div>
+
+    </div>
+  </div>
+
+  <div id="modalBack3">
+
+  <div class="myModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+
+      <figure>
+          <img src="images/ari.jpg" class="circle" alt="personimg">
+      </figure>
+        <h3>Arihant Jain</h3>
+        <p class="title">Chief Investing Officer</p>
+        <p class="bio">I am a sophomore in Cornell University's Dyson School
+           of Applied Economics and Management. I am a driven and analytical
+           individual who thrives in a collaborative environment. My
+           international exposure (living in the Middle East for 7 years),
+           has honed my cross-cultural communication skills and has allowed me
+           to become an effective leader in a diverse team. </p>
+        <p><a target="_blank" href="https://www.linkedin.com/in/arihantjain4/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div id="modalBack4">
+
+  <div class="myModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <figure>
+          <img src="images/mazen.jpg" class="circle" alt="personimg">
+      </figure>
+        <h3>Mazen Raafat Ibrahim</h3>
+        <p class="title">Secretary</p>
+        <p class="bio">I am a sophomore in Cornell University's Dyson School
+           of Applied Economics and Management. I am a driven and analytical
+           individual who thrives in a collaborative environment. My
+           international exposure (living in the Middle East for 7 years),
+           has honed my cross-cultural communication skills and has allowed me
+           to become an effective leader in a diverse team. </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div id="modalBack5">
+
+  <div class="myModal modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <figure>
+          <img src="images/samir.jpg" class="circle" alt="personimg">
+      </figure>
+        <h3>Samir Salih</h3>
+        <p class="title">Chief Operations Officer</p>
+
+<p class="bio">I am an undergraduate student at Cornell University interested
+  in comparative government and International law. I am interested
+  in opportunities that will challenge my writing and analytical skills
+   in fields such as Diplomacy, Law, Government, and Finance.</p>
+        <p><a target="_blank" href="https://www.linkedin.com/in/samir-salih/"><img alt = "linkedin" class="logo" src="images/linkedin.png"></a></p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<?php include "includes/navigation.php"; ?>
+
+
+
+<div id="missionContain">
+<h2>Our Mission</h2>
+<p>The mission of CII shall be to educate members on sustainable investment models, and to work
+with impact investment firms, in order to provide research support to help challenge market and
+social issues. Investments shall be focused on intentional resolution or alleviation of issues in
+different sectors with ethical objectives. Any funds raised by CII shall be used to make impact
+investments.
+</p>
+</div>
+<h2>Our Team</h2>
+<div class="teamContainer">
+<div class="row">
+  <div class="teamMember first" id="TeamMember1">
+  <figure>
+      <img src="images/rahul.jpg" class="circle" alt="personimg">
+  </figure>
+    <h3>Rahul Mukherjee</h3>
+    <p class="title">Chief Executive Officer</p>
+
+    <p id="first">Meet Rahul &rarr; </p>
+
+  </div>
+
+
+
+  <div class="teamMember second">
+  <figure>
+      <img src="images/yousef.jpg" class="circle" alt="personimg">
+  </figure>
+    <h3>Yousef Elraghy</h3>
+    <p class="title">Finance Director</p>
+
+    <p id="second">Meet Yousef &rarr; </p>
+  </div>
+
+  <div class="teamMember third">
+  <figure>
+      <img src="images/ari.jpg" class="circle" alt="personimg">
+  </figure>
+    <h3>Ari Jain</h3>
+    <p class="title">Chief Investing Officer</p>
+
+    <p id="third">Meet Ari &rarr; </p>
+
+  </div>
+</div>
+<div class="row">
+  <div class="teamMember fourth">
+  <figure>
+      <img src="images/mazen.jpg" class="circle" alt="personimg">
+  </figure>
+    <h3>Mazen Raafat Ibrahim</h3>
+    <p class="title">Secretary</p>
+    <p id="fourth">Meet Mazen &rarr; </p>
+  </div>
+
+<div class="teamMember fifth">
+<figure>
+    <img src="images/samir.jpg" class="circle" alt="personimg">
+</figure>
+  <h3>Samir Salih</h3>
+  <p class="title">Chief Operations Officer</p>
+  <p id="fifth">Meet Samir &rarr; </p>
+</div>
+</div>
+
+
+</div>
+
+<?php include "includes/footer.php"; ?>
+</body>
+
+</html>

@@ -13,27 +13,6 @@
 <body>
 <?php include "includes/navigation.php"; ?>
 
-
-
-   <div id="partner-div-1">
-
-       <h1 class="partner-title">Why Sponsor Us</h1>
-
-
-
-       <p class="wedo-paragraph">
-           By partnering with Cornell Impact Investing Club,
-           organizations gain access to professionally-trained
-           volunteer analysts. Sponsors help up-and-coming financial
-            analysts gain meaningful experience in the real world.
-            If you are interested in partnering with us, please contact
-            Rahul Mukherjee, our Chief Executive Officer, at <a href="mailto:rm686@cornell.edu?Subject=Potential%20Partnership">rm686@cornell.edu</a>.
-         </p>
-<img id="lineDec" src="images/line.png" alt="line">
-    </div>
-
-
-
 <div id="partner-div-2">
   <h1 class="partner-title">Partnerships</h1>
   <div id="calvert">
@@ -51,6 +30,8 @@
       </div>
     </div>
   </div>
+
+
   <div id="jpmorgan">
     <div id="impact-border">
     <img id="impact-h1" class="partIm" src="images/jplogo.jpg" alt="jp">
@@ -65,8 +46,40 @@
       Directors and Community Investment Partners.
     </p>
     </div>
-  </div>
     </div>
+    </div>
+
+<div id="partner-div-1">
+
+
+
+<img class="lineDec" src="images/line.png" alt="line">
+
+<div id="quote-partner">
+  <p> Do not take life too seriously.</p>
+  <p> You will never get out of it alive.</p>
+  <p> --Elbert Hubbard<p>
+</div>
+
+
+<img class="lineDec" src="images/line-flip.png" alt="line">
+
+<h1 class="partner-title" id="partner-title-1">Why Sponsor Us</h1>
+
+
+
+<p>
+    By partnering with Cornell Impact Investing Club,
+    organizations gain access to professionally-trained
+    volunteer analysts.</p>
+<p class="wedo-paragraph"> Sponsors help up-and-coming financial analysts gain meaningful experience in the real world.</p>
+
+
+</div>
+
+
+
+
 
 
 
@@ -76,7 +89,9 @@
 
  </div>
 
-</div>
+ <?php include "includes/footer.php"; ?>
+
+
 
 
 
