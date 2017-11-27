@@ -346,23 +346,17 @@ textarea {
 }
 
 #uploads{
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 #uploads label{
   display: inline;
-  float: left;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #uploads input{
   display: inline;
-  float: left;
-  margin-left: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-right: 80px;
 }
 
 input[type=submit]:active input[type=file]:active{
@@ -677,4 +671,11 @@ dl:after {
 }
 #containEd {
   margin: 10px 20%;
+}
+
+.text{
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
 }

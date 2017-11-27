@@ -1,5 +1,6 @@
 <?php
-
+$UserName = $_REQUEST["userName"];
+$UserMail = $_REQUEST["mail"];
 $HIDDEN_ERROR_CLASS = "hiddenError";
 
 $major = $_REQUEST["major"];
@@ -96,6 +97,10 @@ $major = $_REQUEST["major"];
 $formValid = $nameValid && $emailValid && $netidValid && $majorValid && $dropdown1Valid && $dropdown2Valid && $textarea1Valid && $textarea2Valid && $fileinput1Valid && $fileinput2Valid;
     // if valid, allow submission
     if ($formValid) {
+     session_start();
+     $_SESSION["UserName1"] = $UserName;
+     session_start();
+     $_SESSION["Email1"] = $UserMail;
       // redirect to submit.php
       header("Location: submit.php");
       return;
