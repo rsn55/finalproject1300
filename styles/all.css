@@ -369,6 +369,12 @@ input[type=submit]:active input[type=file]:active{
   background-color: rgb(182, 216, 211);
 }
 
+#image{
+  width: 100%;
+  margin-top: 194.9px;
+  height: auto;
+}
+
 input[type=submit]{
   outline: none;
   cursor: pointer;
@@ -589,10 +595,15 @@ margin-bottom: 30px;
   overflow: hidden;
 }
 
+#slogan p{
+  margin: 0px;
+}
+
 #slogan{
-  margin-top: 300px;
+  margin-top: 400px;
   opacity: 0.75;
   padding:20px;
+  height: auto;
   color: black;
   background-color: white;
 }
