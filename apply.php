@@ -148,21 +148,28 @@ else {
   <!-- Other Content -->
 
   <h2><b>Why should I apply for Cornell Impact Investing?</b></h2>
-
   <p>CII accepts people from all different backgrounds and interests, and does not require applicants to come with prior finance knowledge, which is rarely seen amongst the difference finance clubs on campus. </p>
   <br>
+
   <h2><b>What kind of applicants are you looking for?</b></h2>
   <p>CII is looking for applicants who have demonstrated a love of learning through past experiences, regardless of the field of study those experiences include.</p>
 <br>
+
   <h2><b>What kind commitment is expected of incoming applicants?</b></h2>
   <p>Entry-level analysts are expected to commit at least 2-3 hours a week (not including weekly meetings or bi-weekly workshops).</p>
 <br>
+
   <h2><b>What kinds of positions are available to apply for?</b></h2>
   <p>The entry-level analyst position is the only one available to apply for, though there are promotional opportunities available beyond that point. </p>
 <br>
+
   <h2><b>Will there be other recruitment cycles?</b></h2>
-  The next recruitment cycle will be taking place spring 2018. Following that, recruitment cycles will be taking place annually.
+  <p>The next recruitment cycle will be taking place spring 2018. Following that, recruitment cycles will be taking place annually.</p>
 <br>
+
+  <h2><b>When Will Info Sessions Occur?</b></h2>
+<p>If you are interested in learning more about impact investing and may want to apply, we will be holding info sessions February 5-10.</p>
+
   </div>
 
 
