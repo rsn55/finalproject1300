@@ -357,7 +357,19 @@ textarea {
 
 #uploads input{
   display: inline;
-  margin-right: 80px;
+  margin-left: 10px;
+}
+
+#resume{
+  margin-right: 60px;
+}
+
+#resumeError{
+  margin-right: 60px;
+}
+
+#headshotError{
+  margin-right: 60px;
 }
 
 input[type=submit]:active input[type=file]:active{
