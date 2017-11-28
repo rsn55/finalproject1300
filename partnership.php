@@ -56,9 +56,12 @@
 <img class="lineDec" src="images/line.png" alt="line">
 
 <div id="quote-partner">
-  <p> Do not take life too seriously.</p>
-  <p> You will never get out of it alive.</p>
-  <p> --Elbert Hubbard<p>
+  <p> Given our global political climate, it has become more important
+    now than ever before to understand and take responsibility for the
+     implications of our actions as citizens of the world. I strongly
+      believe that impact investing allows people the opportunity to
+       do just that. </p>
+  <p> <i>--Rahul Mukherjee, Chief Executive Officer</i><p>
 </div>
 
 

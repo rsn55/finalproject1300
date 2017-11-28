@@ -41,11 +41,11 @@ h1 a:hover {
 /* Modal Content/Box */
 .modal-content {
   text-align: center;
-  width: 300px;
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
+   width: 350px;
+     background-color: #fefefe;
+     margin: 15% auto; /* 15% from the top and centered */
+     padding: 10px;
+     border: 1px solid #888;
 
 }
 .modal-content p{
@@ -108,7 +108,8 @@ border: 7px solid rgb(79, 17, 7);
 
 .logo {
   display: inline;
-    width: 40px;
+  width: 40px;
+  padding: 0px 7px;
 
 }
 
@@ -428,7 +429,7 @@ input[type=submit]{
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 /* Junan */

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -33,7 +32,7 @@
            has honed my cross-cultural communication skills and has allowed me
            to become an effective leader in a diverse team. </p>
 
-
+             <p><a href="mailto:rm686@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a></p>
 
       </div>
 
@@ -59,7 +58,8 @@
            international exposure (living in the Middle East for 7 years),
            has honed my cross-cultural communication skills and has allowed me
            to become an effective leader in a diverse team. </p>
-        <p><a target="_blank" href="https://www.linkedin.com/in/yousef-el-raghy-32a67712a/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
+ <p><a href="mailto:yte4@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/yousef-el-raghy-32a67712a/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
 
 
     </div>
@@ -80,13 +80,14 @@
       </figure>
         <h3>Arihant Jain</h3>
         <p class="title">Chief Investing Officer</p>
-        <p class="bio">I am a sophomore in Cornell University's Dyson School
-           of Applied Economics and Management. I am a driven and analytical
-           individual who thrives in a collaborative environment. My
-           international exposure (living in the Middle East for 7 years),
-           has honed my cross-cultural communication skills and has allowed me
-           to become an effective leader in a diverse team. </p>
-        <p><a target="_blank" href="https://www.linkedin.com/in/arihantjain4/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
+        <p class="bio">I am a student in the SC Johnson College of
+           Business at Cornell University. I am majoring in Applied Economics and
+           Management and will graduate in three years. I will complete a Masters
+            in Behavioral Finance in my fourth year. I desire to pursue my passion
+            for finance, the startup world, venture capital, and business
+             management to create value and to make an impact.  </p>
+        <p><a href="mailto:aj387@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/arihantjain4/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
 
 
 
@@ -113,7 +114,7 @@
            international exposure (living in the Middle East for 7 years),
            has honed my cross-cultural communication skills and has allowed me
            to become an effective leader in a diverse team. </p>
-
+           <p><a href="mailto:mri22@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a></p>
       </div>
 
     </div>
@@ -135,7 +136,8 @@
   in comparative government and International law. I am interested
   in opportunities that will challenge my writing and analytical skills
    in fields such as Diplomacy, Law, Government, and Finance.</p>
-        <p><a target="_blank" href="https://www.linkedin.com/in/samir-salih/"><img alt = "linkedin" class="logo" src="images/linkedin.png"></a></p>
+        <p><a href="mailto:sms599@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/samir-salih/"><img alt = "linkedin" class="logo" src="images/linkedin.png"></a></p>
       </div>
 
     </div>
