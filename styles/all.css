@@ -90,6 +90,7 @@ border: 7px solid rgb(79, 17, 7);
 
 }
 
+
 .teamMember {
   vertical-align: top;
 	display: inline-block;
@@ -137,18 +138,29 @@ p {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.menu ul {
-  margin: 0;
-  padding: 0;
+.menu {
+
+  display:table;
+  margin: 0 auto;
   text-align: center;
+}
+
+.menu ul {
+  display: table-row;
+  padding: 0;
+
 }
 .navlogo {
   width: 50px;
 }
 .menu li {
   list-style-type: none;
-  display: inline;
+
   font-size: 20px;
+
+    vertical-align: middle;
+    display: table-cell;
+
 
 
 }
