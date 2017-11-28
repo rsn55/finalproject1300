@@ -19,13 +19,30 @@
 
 <div class="impactinvestinginfo">
     <div id= "aboutimpact">
-    <h2>What is Impact Investing?</h2>
+
+    <h2>Who Are We?</h2>
+      <p> Given our global political climate, it has become more important
+        now than ever before to understand and take responsibility for the
+         implications of our actions as citizens of the world. I strongly
+          believe that impact investing allows people the opportunity to
+           do just that, supporting ventures that create paths toward a
+           healthier planet. Impact investing though projected to be the
+           upcoming trend within the world of finance, really hasn’t reached
+            the mainstream yet. Thus our purpose of founding CII, one of the
+            only impact investing undergraduate clubs in the country, was to
+            take on a pioneering role and allow more people the opportunity
+            to learn and get involved in impact investing. In this way, our
+            hope for CII is to not only bring in people with prior finance
+            experience, but to expand the scope of this niche to people of
+            different backgrounds and skillsets. </p>
+            <p><i>- Rahul Mukherjee, Chief Executive Officer</i></p>
     <!-- <div id="definition">
       <h2 id="deftitle">Impact Investment</h2>
       <p id="defpronounce">[im-pakt in-vest-muh nt]</p>
       <p>NOUN: Impact investing is investing that aims to generate specific beneficial social
         or environmental effects in addition to financial gain.</p>
       </div> -->
+        <h2>What is Impact Investing?</h2>
 <div class="centEd">
       <p>Impact investments are investments made into companies, organizations,
         and funds with the intention to generate social and environmental impact
