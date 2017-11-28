@@ -25,5 +25,5 @@ $(document).ready(function() {
 	  document.body.style.backgroundRepeat = "no-repeat";
 		document.body.style.backgroundWidth = "100%";
 		document.body.style.backgroundHeight = "100%";
-	},2500);
+	},3200);
 });
