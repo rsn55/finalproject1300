@@ -80,17 +80,13 @@
       </figure>
         <h3>Arihant Jain</h3>
         <p class="title">Chief Investing Officer</p>
-        <p class="bio">I am a student in the SC Johnson College of
-           Business at Cornell University. I am majoring in Applied Economics and
-           Management and will graduate in three years. I will complete a Masters
-            in Behavioral Finance in my fourth year. I desire to pursue my passion
-            for finance, the startup world, venture capital, and business
-             management to create value and to make an impact.  </p>
+        <p class="bio">I am a student in the SC Johnson College of Business at
+          Cornell University. I am majoring in Applied Economics and Management and will graduate in
+          three years. I will complete a Masters in Behavioral Finance in my fourth year.
+           I desire to pursue my passion for finance, the startup world, venture capital,
+           and business management to create value and to make an impact.</p>
         <p><a href="mailto:aj387@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a>
           <a target="_blank" href="https://www.linkedin.com/in/arihantjain4/"><img alt="linkedin" class="logo" src="images/linkedin.png"></a></p>
-
-
-
       </div>
 
     </div>
@@ -108,12 +104,9 @@
       </figure>
         <h3>Mazen Raafat Ibrahim</h3>
         <p class="title">Secretary</p>
-        <p class="bio">I am a sophomore in Cornell University's Dyson School
-           of Applied Economics and Management. I am a driven and analytical
-           individual who thrives in a collaborative environment. My
-           international exposure (living in the Middle East for 7 years),
-           has honed my cross-cultural communication skills and has allowed me
-           to become an effective leader in a diverse team. </p>
+        <p class="bio">I am a sophomore in Cornell University studying Computer Science.
+           I currently intern at Facebook as a software engineer. My
+           interests include programming, analytics, and data analytics. </p>
            <p><a href="mailto:mri22@cornell.edu?Subject=Impact%20Investing"><img alt="mail" class="logo" src="images/gmail.png"></a></p>
       </div>
 

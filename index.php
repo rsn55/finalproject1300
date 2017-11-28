@@ -31,9 +31,9 @@
 
 
 <div id="slogan">
-  <p id="future">"I will tell you how to become rich. Close the doors. </p>
-    <p id="future2">Be fearful when others are greedy. Be greedy when others are fearful." </p>
-  <p id="buffett">- Warren Buffett</p>
+<p id="future">"The best investment any of us can make is in the lives of others."</p>
+  <!--  <p id="future2">Be fearful when others are greedy. Be greedy when others are fearful." </p> -->
+  <p id="buffett">- Bill and Melinda Gates</p>
 </div>
 
 <!-- <div id="blurb">
