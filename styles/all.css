@@ -83,7 +83,7 @@ border: 7px solid rgb(79, 17, 7);
 .row {
   height: 310px;
 }
-.teamMember:hover{
+.activeTeam{
 
   box-shadow: 2px 1px 14px 5px rgba(0,0,0,0.2);
    filter: grayscale(100%);
@@ -99,6 +99,9 @@ border: 7px solid rgb(79, 17, 7);
 
 #first, #second, #third, #fourth, #fifth {
   display: none;
+}
+.first, .second, .third, .fourth, .fifth {
+
   cursor: pointer;
 }
 
