@@ -168,7 +168,7 @@ else {
 <br>
 
   <h2><b>When Will Info Sessions Occur?</b></h2>
-<p>If you are interested in learning more about impact investing and may want to apply, we will be holding info sessions February 5-10.</p>
+<p>If you are interested in learning more about impact investing and may want to apply, we will be holding info sessions February 5-10 2:00-3:00 pm in Kennedy Hall Room 213.</p>
 
   </div>
 
