@@ -191,6 +191,7 @@ form {
   float: right;
   margin-right: 20px;
   margin-top: 20px;
+  margin-left: 670px;
   background-color: rgb(246, 247, 237);
   width: 600px;
   height: auto;
@@ -200,6 +201,7 @@ form {
   color: #110745;
   box-shadow: 0px 2px 8px #888888;
   margin-bottom: 20px;
+  position: absolute;
 }
 
 form p{
@@ -423,10 +425,10 @@ input[type=submit]{
   float: left;
   width: 570px;
   margin-left: 30px;
-
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 /* Junan */
