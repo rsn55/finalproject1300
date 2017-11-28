@@ -26,8 +26,8 @@ $useremail = $_SESSION["Email1"]
 <body>
 <?php include "includes/navigation.php"; ?>
 
-<p class="text">Application submitted. Thank you <?php echo($username); ?> for applying to Cornell Impact Investing!</p>
-<p class="text">We will contact you shortly at <?php echo($useremail); ?>.</p>
+<p class="text">Application submitted. Thank you <?php echo(htmlspecialchars($username)); ?> for applying to Cornell Impact Investing!</p>
+<p class="text">We will contact you shortly at <?php echo(htmlspecialchars($useremail)); ?>.</p>
 
 </body>
 

@@ -147,20 +147,20 @@ else {
 
   <!-- Other Content -->
 
-  <p><b>Why should I apply for Cornell Impact Investing?</b></p>
+  <h2><b>Why should I apply for Cornell Impact Investing?</b></h2>
 
   <p>CII accepts people from all different backgrounds and interests, and does not require applicants to come with prior finance knowledge, which is rarely seen amongst the difference finance clubs on campus. </p>
   <br>
-  <p><b>What kind of applicants are you looking for?</b></p>
+  <h2><b>What kind of applicants are you looking for?</b></h2>
   <p>CII is looking for applicants who have demonstrated a love of learning through past experiences, regardless of the field of study those experiences include.</p>
 <br>
-  <p><b>What kind commitment is expected of incoming applicants?</b></p>
+  <h2><b>What kind commitment is expected of incoming applicants?</b></h2>
   <p>Entry-level analysts are expected to commit at least 2-3 hours a week (not including weekly meetings or bi-weekly workshops).</p>
 <br>
-  <p><b>What kinds of positions are available to apply for?</b></p>
+  <h2><b>What kinds of positions are available to apply for?</b></h2>
   <p>The entry-level analyst position is the only one available to apply for, though there are promotional opportunities available beyond that point. </p>
 <br>
-  <p><b>Will there be other recruitment cycles?</b></p>
+  <h2><b>Will there be other recruitment cycles?</b></h2>
   The next recruitment cycle will be taking place spring 2018. Following that, recruitment cycles will be taking place annually.
 <br>
   </div>
@@ -179,25 +179,25 @@ else {
 <!-- Name input -->
 
          <label for="name">Name</label>
-          <input value="<?php echo($name);?>" type="text" id="name" name="userName" placeholder="First and last" required>
+          <input value="<?php echo(htmlspecialchars($name));?>" type="text" id="name" name="userName" placeholder="First and last" required>
           <!--Error message-->
          <span class="error <?php if ($nameValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="nameError">First name is required.</span>
 
 <!-- Email input -->
          <label for="mail">E-mail</label>
-          <input value="<?php echo($email);?>" type="email" id="mail" name="mail" placeholder="abc123@cornell.edu" required>
+          <input value="<?php echo(htmlspecialchars($email));?>" type="email" id="mail" name="mail" placeholder="abc123@cornell.edu" required>
           <!--Error message-->
          <span class="error <?php if ($emailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="mailError"> E-mail is required.</span>
 
 <!-- NetID input -->
          <label for="netid">NetID</label>
-         <input value="<?php echo($netID);?>" type="text" id="netid" name="netid" placeholder="________(@cornell.edu)" required>
+         <input value="<?php echo(htmlspecialchars($netID));?>" type="text" id="netid" name="netid" placeholder="________(@cornell.edu)" required>
          <!--Error message-->
          <span class="error <?php if ($netidValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="netidError">NetID is required.</span>
 
 <!-- Major input -->
          <label for="major">Major</label>
-          <input value="<?php echo($major);?>" type="text" id="major" name="major" placeholder="Write major here" required>
+          <input value="<?php echo(htmlspecialchars($major));?>" type="text" id="major" name="major" placeholder="Write major here" required>
           <!--Error message-->
           <span class="error <?php if ($majorValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="majorError">Major is required.</span>
 </div>
@@ -239,12 +239,12 @@ else {
 <!-- Text areas -->
 <div id="textareas">
 <p>What sparked your interest in impact investing? (400 words or fewer)</p>
-<textarea class="textarea" name="textarea1" id="textarea1" required><?php echo($textarea1);?></textarea>
+<textarea class="textarea" name="textarea1" id="textarea1" required><?php echo(htmlspecialchars($textarea1));?></textarea>
 <span class="error <?php if ($textarea1Valid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="textarea1Error">Please enter text above (400 words or fewer).</span>
 
 <p>Tell us about a potential impact investment opportunity that would guarantee a decent return. (400 words or fewer)</p>
 <textarea class="textarea" name="textarea2" id="textarea2" required>
-<?php echo($textarea2);?>
+<?php echo(htmlspecialchars($textarea2));?>
 </textarea>
 <span class="error <?php if ($textarea2Valid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="textarea2Error">Please enter text above (400 words or fewer).</span>
 
