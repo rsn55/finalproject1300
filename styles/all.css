@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Vollkorn+SC");
 
 /*footer */
-.footer p{
+footer p{
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
 }
@@ -13,6 +13,10 @@ footer{
   height: 80px;
   background-color: rgb(79, 17, 7);;
 }
+.push{
+  height: 80px;
+}
+
 .footer-caption1{
   color: rgb(244, 218, 178);
   padding-bottom: 0px;
@@ -127,7 +131,12 @@ h3 {
 }
 
 body, html {
-  margin: 0 auto;
+  margin:0;
+  height: 100%;
+}
+.wrapper{
+  min-height: 100%;
+  margin-bottom: -80px;
 }
 
 .header {

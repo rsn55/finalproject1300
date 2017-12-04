@@ -13,35 +13,27 @@
 </head>
 
 <body id="home">
-<!-- <body> -->
-<?php include "includes/navigation.php"; ?>
+  <div class= "wrapper">
 
-<div id="slide">
-
-  <!-- <div id="image">
-  <img id="slideshow" src="images/cornell.jpg">
-  </div> -->
-
-<!-- <div id="buttons">
-  <button class="slide_button" id="left">⤌</button>
-  <button class="slide_button" id="right">⤏</button>
-  </div>
-</div> -->
-
-
-
-<div id="slogan">
-<p id="future">"The best investment any of us can make is in the lives of others."</p>
+    <?php include "includes/navigation.php"; ?>
+    <div id="slide">
+      <div id="slogan">
+        <p id="future">"The best investment any of us can make is in the lives of others."</p>
   <!--  <p id="future2">Be fearful when others are greedy. Be greedy when others are fearful." </p> -->
-  <p id="buffett">- Bill and Melinda Gates</p>
+        <p id="buffett">- Bill and Melinda Gates</p>
+      </div>
+    </div>
+
+    <div class="push"></div>
 </div>
 
-<!-- <div id="blurb">
-  <p id="blurb"> Mission Statement pending</p>
-</div> -->
+    <footer>
+      <p class="footer-caption1">Email us: <a id="footer-email" href="mailto:rm686@cornell.edu?Subject=Potential%20Partnership">rm686@cornell.edu</a></p>
 
+      <p class="footer-caption2">Meeting Location: Kennedy Hall Room 213, Cornell University, Ithaca, NY</p>
 
-      <?php include "includes/footer.php"; ?>
+    </footer>
+
 </body>
 
 </html>
