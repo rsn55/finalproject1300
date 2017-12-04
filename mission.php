@@ -101,5 +101,5 @@
           </div>
           <?php include "includes/footer.php"; ?>
         </body>
-
+<!--  Just to make some changes -->
         </html>
